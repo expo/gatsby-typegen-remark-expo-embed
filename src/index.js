@@ -21,7 +21,7 @@ module.exports = ({ markdownAST }) => {
       patch(data, `hProperties`, {});
       patch(data.hProperties, 'data-sketch-id', id);
       patch(data.hProperties, 'data-sketch-platform', 'ios');
-      patch(data.hProperties, 'data-sketch-preview', true);
+      patch(data.hProperties, 'data-sketch-preview', 'false');
       patch(data.hProperties, 'class', 'embedded-example-container');
     }
   });
